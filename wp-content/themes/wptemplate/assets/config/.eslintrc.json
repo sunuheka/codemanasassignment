@@ -38,7 +38,7 @@
 		"key-spacing": [2, { "beforeColon": false, "afterColon": true }],
 		// Enforce spacing before and after keywords
 		"keyword-spacing": 2,
-		"linebreak-style": [2, "unix"],
+		"linebreak-style": [2, "windows"],
 		// Enforces empty lines around comments
 		"lines-around-comment": [2, { "beforeLineComment": false }],
 		// Disallow mixed spaces and tabs for indentation

@@ -4,7 +4,66 @@
 	color: $text-color;
 }
 
+@font-face {
+	font-family: 'Open Sans';
+	src: url( '../font/OpenSans.eot' );
+	src:
+		url( '../font/OpenSans.eot?#iefix' ) format( 'embedded-opentype' ),
+		url( '../font/OpenSans.woff2' ) format( 'woff2' ),
+		url( '../font/OpenSans.woff' ) format( 'woff' ),
+		url( '../font/OpenSans.ttf' ) format( 'truetype' ),
+		url( '../font/OpenSans.svg#OpenSans' ) format( 'svg' );
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url( '../font/OpenSans-Light.eot' );
+	src:
+		url( '../font/OpenSans-Light.eot?#iefix' ) format( 'embedded-opentype' ),
+		url( '../font/OpenSans-Light.woff2' ) format( 'woff2' ),
+		url( '../font/OpenSans-Light.woff' ) format( 'woff' ),
+		url( '../font/OpenSans-Light.ttf' ) format( 'truetype' ),
+		url( '../font/OpenSans-Light.svg#OpenSans-Light' ) format( 'svg' );
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url( '../font/OpenSans-Bold.eot' );
+	src:
+		url( '../font/OpenSans-Bold.eot?#iefix' ) format( 'embedded-opentype' ),
+		url( '../font/OpenSans-Bold.woff2' ) format( 'woff2' ),
+		url( '../font/OpenSans-Bold.woff' ) format( 'woff' ),
+		url( '../font/OpenSans-Bold.ttf' ) format( 'truetype' ),
+		url( '../font/OpenSans-Bold.svg#OpenSans-Bold' ) format( 'svg' );
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url( '../font/OpenSans-Semibold.eot' );
+	src:
+		url( '../font/OpenSans-Semibold.eot?#iefix' ) format( 'embedded-opentype' ),
+		url( '../font/OpenSans-Semibold.woff2' ) format( 'woff2' ),
+		url( '../font/OpenSans-Semibold.woff' ) format( 'woff' ),
+		url( '../font/OpenSans-Semibold.ttf' ) format( 'truetype' ),
+		url( '../font/OpenSans-Semibold.svg#OpenSans-Semibold' ) format( 'svg' );
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
 body {
+	font-family: 'Open Sans';
+	color: $text-color;
+
 	&.is-loaded {
 		opacity: 1;
 
@@ -21,8 +80,275 @@ a {
 	}
 }
 
+img {
+	max-width: 100%;
+}
+
+.font-regular {
+	font-weight: 400;
+}
+
+.color {
+	&-blue {
+		color: $blue;
+	}
+}
+
+.site-logo {
+	text-decoration: none;
+	font-family: Catamaran, sans-serif;
+	color: $white;
+
+	h1 {
+		font-size: 20px;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
 .menu {
-	ul {
+	display: flex;
+
+	a {
+		font-family: 'Didact Gothic', sans-serif;
+		color: $white;
+		text-decoration: none;
+	}
+}
+
+.site-header {
+	position: absolute;
+	width: 100%;
+	padding: 20px 0;
+	z-index: 1;
+}
+
+.banner {
+	background-image: url( '../img/slider-12.jpg' );
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&_details {
+		color: $white;
+		max-width: 600px;
+		margin: auto;
+		text-align: center;
+		position: relative;
+
+		.name {
+			text-transform: uppercase;
+			font-size: 12px;
+			padding-bottom: 10px;
+			letter-spacing: 1.3px;
+		}
+
+		h2 {
+			font-size: 3rem;
+			margin-bottom: 30px;
+		}
+
+		p {
+			font-size: 1rem;
+			font-weight: 300;
+
+			+ .btn {
+				margin-top: 30px;
+			}
+		}
+	}
+}
+
+.banner_overlay {
+	background-color: rgba( 0, 39, 83, 0.5 );
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.component {
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+	h2 {
+		font-size: 3rem;
+		font-weight: 300;
+		color: $black;
+	}
+
+	&.aboutme {
+		padding-bottom: 80px;
+	}
+}
+
+.icon-round {
+	width: 100px;
+	height: 100px;
+	background-color: #eee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	margin: auto;
+
+	svg {
+		path,
+		polygon {
+			fill: $blue;
+		}
+	}
+}
+
+.aboutme {
+	h3 {
+		font-size: 1.1rem;
+		font-weight: 600;
+		margin-bottom: 15px;
+	}
+
+	&-content {
+		padding-bottom: 50px;
+
+		&_col {
+			margin-bottom: 20px;
+		}
+	}
+
+	.icon-round {
+		margin-bottom: 30px;
+	}
+}
+
+.testimonial {
+	background-color: $dark;
+
+	.swiper-container {
+		max-width: 660px;
+		padding-bottom: 60px;
+	}
+
+	.swiper-slide {
+		color: $white;
+
+		.image {
+			width: 100px;
+			height: 100px;
+			border-radius: 100%;
+			overflow: hidden;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 35px;
+			border: 4px solid $white;
+		}
+
+		p {
+			margin-bottom: 25px;
+			font-weight: 300;
+			opacity: 0.9;
+		}
+
+		.name {
+			font-size: 1.2rem;
+		}
+
+		small {
+			opacity: 0.5;
+		}
+	}
+
+	.swiper-pagination-bullet-active {
+		background-color: #fff;
+	}
+
+	.swiper-pagination-bullet {
+		width: 30px;
+		height: 4px;
+		border-radius: 0;
+		background: #fff;
+	}
+}
+
+.services {
+	&_contents {
 		display: flex;
+
+		&-content {
+			h3 {
+				text-transform: uppercase;
+				font-size: 1.1rem;
+				color: $black;
+				font-weight: 600;
+				margin-bottom: 10px;
+
+				span {
+					@extend .font-regular;
+				}
+			}
+		}
+	}
+
+	.icon {
+		padding-right: 20px;
+	}
+
+	.col {
+		padding-top: 50px;
+	}
+}
+
+figure {
+	margin: 0;
+}
+
+.top-content {
+	padding-bottom: 40px;
+}
+
+#cookie-bar {
+	display: none;
+}
+
+.works {
+	background-color: #f8f9fb;
+
+	img {
+		width: 100%;
+	}
+
+	&-detail {
+		background-color: $white;
+		padding: 30px 10px 40px;
+		box-shadow: 0 0 10px #efeaea;
+
+		h3 {
+			color: $black;
+			font-weight: 400;
+			font-size: 1.1rem;
+		}
+	}
+
+	.colm {
+		padding-top: 40px;
+	}
+}
+
+.pricing {
+	h2 {
+		margin-bottom: 30px;
+	}
+
+	p + .btn {
+		margin-top: 30px;
+		margin-bottom: 30px;
 	}
 }

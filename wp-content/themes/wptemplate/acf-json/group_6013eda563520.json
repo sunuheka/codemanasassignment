@@ -43,6 +43,15 @@
                     "min": "",
                     "max": ""
                 },
+                "layout_6015556a997c4": {
+                    "key": "layout_6015556a997c4",
+                    "name": "testimonial",
+                    "label": "Testimonial",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
                 "layout_6013f60a84d86": {
                     "key": "layout_6013f60a84d86",
                     "name": "services",
@@ -103,5 +112,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1611920930
+    "modified": 1612010881
 }

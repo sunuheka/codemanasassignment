@@ -1,8 +1,8 @@
-class TestModule extends Component {
+// class TestModule extends Component {
 
-	init() {
-		console.log( this.element );
-	}
-}
+// 	init() {
+// 		console.log( this.element );
+// 	}
+// }
 
-TestModule.addComponent( '.banner' );
+// TestModule.addComponent( '.banner' );

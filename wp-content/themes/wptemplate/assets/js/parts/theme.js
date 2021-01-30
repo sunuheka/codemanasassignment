@@ -1,15 +1,15 @@
 class Theme extends Component {
 
 	init() {
-		this.bindUIActions();
+		//this.bindUIActions();
 	}
 
 	bindUIActions() {
-		this.element
-			.on( 'click', e => {
-				console.log( e.currentTarget, this );
-				//alert( `${e.currentTarget} clicked!` );
-			});
+		//this.element
+		//	.on( 'click', e => {
+		//console.log( e.currentTarget, this );
+		//alert( `${e.currentTarget} clicked!` );
+		//	});
 	}
 }
 
