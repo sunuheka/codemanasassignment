@@ -19,7 +19,7 @@ wp_footer(); ?>
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     // if (scroll >= 100 && $(this).width() > 769) {
-    if (scroll >= 100) {
+    if (scroll >= 10) {
       header.addClass("navbar-fixed-top");
     } else {
       header.removeClass('navbar-fixed-top');
@@ -74,7 +74,6 @@ wp_footer(); ?>
     var swiper = new Swiper('.swiper-container', {
       loop: true,
       slidesPerView: 1,
-      spaceBetween: 10,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,

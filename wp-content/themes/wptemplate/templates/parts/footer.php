@@ -2,11 +2,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 footer-about">
-				<div class="wrapper-600">
+				<div class="wrapper-400">
 				<div class="footer-logo">
 					CodeManas
 				</div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iusto aut quisquam praesentium totam voluptate, hic assumenda ut soluta quo voluptatibus aliquam vitae nemo officia nulla consequatur quasi unde consectetur.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iusto aut quisquam praesentium totam voluptate, hic assumenda ut soluta quo voluptatibus aliquam.</p>
 				</div>
 			</div>
 			<div class="col-md-6">

@@ -7,6 +7,7 @@
 
 		<div class="row justify-content-center">
 			<div class="colm col-lg-4 col-sm-6">
+				<a href="javascript:void();">
 				<figure>
 					<img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/Capture.PNG'; ?>" alt="">
 				</figure>
@@ -14,8 +15,10 @@
 					<h3>Porbiz portfoli web template</h3>
 					<p class="color-blue">Web design</p>
 				</div>
+				</a>
 			</div>
 			<div class="colm col-lg-4 col-sm-6">
+			<a href="javascript:void();">
 				<figure>
 					<img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/Capture.PNG'; ?>" alt="">
 				</figure>
@@ -23,8 +26,10 @@
 					<h3>Porbiz portfoli web template</h3>
 					<p class="color-blue">Web design</p>
 				</div>
+			</a>
 			</div>
 			<div class="colm col-lg-4 col-sm-6">
+			<a href="javascript:void();">
 				<figure>
 					<img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/Capture.PNG'; ?>" alt="">
 				</figure>
@@ -32,8 +37,10 @@
 					<h3>Porbiz portfoli web template</h3>
 					<p class="color-blue">Web design</p>
 				</div>
+			</a>
 			</div>
 			<div class="colm col-lg-4 col-sm-6">
+			<a href="javascript:void();">
 				<figure>
 					<img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/Capture.PNG'; ?>" alt="">
 				</figure>
@@ -41,8 +48,10 @@
 					<h3>Porbiz portfoli web template</h3>
 					<p class="color-blue">Web design</p>
 				</div>
+			</a>
 			</div>
 			<div class="colm col-lg-4 col-sm-6">
+			<a href="javascript:void();">
 				<figure>
 					<img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/Capture.PNG'; ?>" alt="">
 				</figure>
@@ -50,6 +59,7 @@
 					<h3>Porbiz portfoli web template</h3>
 					<p class="color-blue">Web design</p>
 				</div>
+			</a>
 			</div>
 		</div>
 </div>

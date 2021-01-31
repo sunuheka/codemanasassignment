@@ -115,6 +115,14 @@ li {
 	&-600 {
 		max-width: 600px;
 	}
+
+	&-400 {
+		max-width: 400px;
+	}
+}
+
+.container {
+	max-width: 1200px;
 }
 
 .site-logo {
@@ -161,6 +169,7 @@ li {
 	width: 100%;
 	padding: 20px 0;
 	z-index: 1;
+	transition: all 0.3s ease-in-out;
 
 	@media all and ( max-width: 991px ) {
 		padding-top: 10px;
@@ -179,15 +188,18 @@ li {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
+	min-height: 100vh;
+	height: auto;
 	width: 100%;
+	padding-top: 80px;
+	padding-bottom: 20px;
 	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
-	@media all and ( max-width: 991px ) {
-		height: 78vh;
+	@media all and ( max-width: 767px ) {
+		min-height: 78vh;
 	}
 
 	&_details {
@@ -273,6 +285,7 @@ li {
 		font-size: 1.1rem;
 		font-weight: 600;
 		margin-bottom: 15px;
+		color: $black;
 
 		@media all and ( max-width: 991px ) {
 			font-size: 16px;
@@ -298,7 +311,7 @@ li {
 	padding-right: 10px;
 
 	.swiper-container {
-		max-width: 660px;
+		max-width: 700px;
 		padding-bottom: 60px;
 	}
 
@@ -324,6 +337,7 @@ li {
 
 		.name {
 			font-size: 1.2rem;
+			line-height: 1;
 		}
 
 		small {
@@ -424,6 +438,25 @@ figure {
 		@media all and ( max-width: 991px ) {
 			padding-top: 20px;
 		}
+
+		figure {
+			overflow: hidden;
+		}
+
+		a {
+			text-decoration: none;
+			transition: all 0.3s linear;
+
+			img {
+				transition: all 0.3s linear;
+			}
+
+			&:hover {
+				img {
+					transform: scale( 1.1 );
+				}
+			}
+		}
 	}
 }
 
@@ -479,6 +512,11 @@ figure {
 			width: 100%;
 		}
 	}
+}
+
+.dollor {
+	font-size: 18px;
+	font-weight: 400;
 }
 
 .font-large {
