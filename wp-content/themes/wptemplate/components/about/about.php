@@ -1,4 +1,4 @@
-<section class="component aboutme text-center">	
+<section id="about" class="component aboutme text-center">	
     <div class="container">
         <div class="aboutme-content">
             <h2>Why Choose me?</h2>

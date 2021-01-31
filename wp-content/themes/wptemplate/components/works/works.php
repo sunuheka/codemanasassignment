@@ -1,4 +1,4 @@
-<section class="component works text-center">
+<section id="works" class="component works text-center">
 <div class="container">
 		<div class="top-content text-center">
 			<h2>Work Showcase</h2>

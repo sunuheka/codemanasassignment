@@ -17,5 +17,6 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<a href="javascript:void(0);" class="totop">&nbsp;</a>
 
 	<?php get_template_part( '/templates/parts/header' );

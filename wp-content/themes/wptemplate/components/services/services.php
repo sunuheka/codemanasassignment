@@ -1,11 +1,11 @@
-<section class="component services">
+<section id="services" class="component services">
 	<div class="container">
 		<div class="top-content text-center">
 			<h2>My Key Services</h2>
 			<p>Industry Leading Managed services and Staff Solutions.</p>
 		</div>
 		<div class="row">
-			<div class="col col-lg-4 col-sm-6">
+			<div class="services-col col-lg-4 col-sm-6">
 				<div class="services_contents">
 					<div class="icon">				
 						<svg version="1.1" id="Capa_1" width= "40" height="40"
@@ -61,7 +61,7 @@
 				</div>
 			</div>
 
-			<div class="col col-lg-4 col-sm-6">
+			<div class="services-col col-lg-4 col-sm-6">
 				<div class="services_contents">
 					<div class="icon">				
 						<svg version="1.1" id="Capa_1" width="40" height="40" x="0px" y="0px"
@@ -133,7 +133,7 @@
 				</div>
 			</div>
 
-			<div class="col col-lg-4 col-sm-6">
+			<div class="services-col col-lg-4 col-sm-6">
 				<div class="services_contents">
 					<div class="icon">				
 					<svg version="1.1" id="Capa_1" x="0px" y="0px"
@@ -194,7 +194,7 @@
 				</div>
 			</div>
 
-			<div class="col col-lg-4 col-sm-6">
+			<div class="services-col col-lg-4 col-sm-6">
 				<div class="services_contents">
 					<div class="icon">				
 					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -272,7 +272,7 @@
 				</div>
 			</div>
 
-			<div class="col col-lg-4 col-sm-6">
+			<div class="services-col col-lg-4 col-sm-6">
 				<div class="services_contents">
 					<div class="icon">				
 					<svg version="1.1" id="Capa_1" x="0px" y="0px"
@@ -338,7 +338,7 @@
 				</div>
 			</div>
 
-			<div class="col col-lg-4 col-sm-6">
+			<div class="services-col col-lg-4 col-sm-6">
 				<div class="services_contents">
 					<div class="icon">				
 					<svg version="1.1" id="Capa_1" width="40" height="40" x="0px" y="0px"

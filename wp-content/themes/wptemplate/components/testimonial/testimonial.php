@@ -1,4 +1,4 @@
-<section class="component testimonial text-center">
+<section id="testimonials" class="component testimonial text-center">
 	<!-- Swiper -->
 	<div class="swiper-container">
     <div class="swiper-wrapper">

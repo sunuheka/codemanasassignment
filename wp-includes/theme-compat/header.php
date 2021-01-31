@@ -46,6 +46,7 @@ if ( empty($withcomments) && !is_single() ) {
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+
 <div id="page">
 
 <div id="header" role="banner">

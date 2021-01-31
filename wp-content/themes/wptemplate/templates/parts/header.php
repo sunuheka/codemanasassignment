@@ -7,6 +7,10 @@
 					<!-- <img src="<?php //echo get_stylesheet_directory_uri() . '/assets/img/logo.svg'; ?>" alt="<?php //echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"> -->
 					<h1>CodeManas</h1>
 				</a>
+				<div id="menu">
+				<a href="javascript:void(0);" class="menuBtn">
+					<span class="lines"></span>
+				</a>
 					<?php
 					wp_nav_menu([
 						'theme_location' => 'primary',
@@ -14,6 +18,7 @@
 						'container' => false,
 					]);
 					?>
+				</div>
 				</div>
 			</div>
 		</div>
