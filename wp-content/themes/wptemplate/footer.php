@@ -1,9 +1,33 @@
 <?php
 get_template_part('/templates/parts/footer');
 wp_footer(); ?>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 <!-- Initialize Swiper -->
 <script>
+//Hex color generator
+	const colors = [0,1,2,3,4,5,6,7,8,9,"A","B","C","D","E","F"];
+  const btncolor = document.getElementById("color-btn");
+  const color = document.querySelector('.color');
+
+  btncolor.addEventListener("click", function(){
+    let hexColor= "#";
+
+    for( let i = 0; i < 6; i++ ) {
+      hexColor += colors[getRandomNumber()];
+    }
+    const randomNumber = getRandomNumber();
+    document.body.style.backgroundColor = hexColor;
+    color.textContent = hexColor;
+  });
+
+  function getRandomNumber() {
+    return Math.floor(Math.random()*colors.length);
+  }
+
+
+  //Counter
+  
+  
   $(document).ready(function() {
     // menu click event
     $('.menuBtn').click(function() {
